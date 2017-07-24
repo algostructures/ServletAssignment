@@ -1,0 +1,49 @@
+#top-right{
+    position : absolute;
+    top:3px;
+    right:7px;
+}
+#bottom-right{
+    position : absolute;
+    bottom:4px;
+    right: 7px;
+}
+
+#center {
+    position:absolute;
+    top:50%;
+    left:50%;
+    padding:15px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block;
+    *display: inline;
+    zoom:1;
+    vertical-align:middle;
+    margin-left:20px
+}
+
+label {
+    display:inline-block;
+    *display: inline;
+    zoom:1;
+    float: left;
+    padding-top: 5px;
+    text-align: right;
+    width: 140px;
+}
+right {
+    position: absolute;
+    right:0;
+}
+#center_1 {
+    position:absolute;
+    top:2%;
+    left:50%;
+    padding:15px;
+}

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+           version="3.0">
+    <servlet>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <servlet-class>Question_1_2.WelcomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <url-pattern>/WelcomeServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Servlet1</servlet-name>
+        <servlet-class>Question_1_2.Servlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet1</servlet-name>
+        <url-pattern>/Servlet1</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Question_1_2.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletRD</servlet-name>
+        <servlet-class>Question_3.ServletRD</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletRD</servlet-name>
+        <url-pattern>/ServletRD</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Q3Servlet1</servlet-name>
+        <servlet-class>Question_3.Q3Servlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q3Servlet1</servlet-name>
+        <url-pattern>/Q3Servlet1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Q4_Servlet_1</servlet-name>
+        <servlet-class>Question_4.Q4_Servlet_1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q4_Servlet_1</servlet-name>
+        <url-pattern>/Q4_Servlet_1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Q4_Servlet_2</servlet-name>
+        <servlet-class>Question_4.Q4_Servlet_2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q4_Servlet_2</servlet-name>
+        <url-pattern>/Q4_Servlet_2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Q3Servlet2</servlet-name>
+        <servlet-class>Question_3.Q3Servlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q3Servlet2</servlet-name>
+        <url-pattern>/Q3Servlet2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Q5_RD_1</servlet-name>
+        <servlet-class>Question_5.Q5_RD_1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q5_RD_1</servlet-name>
+        <url-pattern>/Q5_RD_1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Q5_RD_2</servlet-name>
+        <servlet-class>Question_5.Q5_RD_2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q5_RD_2</servlet-name>
+        <url-pattern>/Q5_RD_2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Q5_Servlet</servlet-name>
+        <servlet-class>Question_5.Q5_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q5_Servlet</servlet-name>
+        <url-pattern>/Q5_Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Q7_CookieColor</servlet-name>
+        <servlet-class>Question_7.Q7_CookieColor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q7_CookieColor</servlet-name>
+        <url-pattern>/Q7_CookieColor</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Q7_CookieColor_2</servlet-name>
+        <servlet-class>Question_7.Q7_CookieColor_2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q7_CookieColor_2</servlet-name>
+        <url-pattern>/Q7_CookieColor_2</url-pattern>
+    </servlet-mapping>
+    <filter>
+        <filter-name>Q9Filter</filter-name>
+        <filter-class>Question_9.Q9Filter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>Q9Filter</filter-name>
+        <url-pattern>/Q9_Servlet</url-pattern>
+    </filter-mapping>
+    <servlet>
+        <servlet-name>Q9_Servlet</servlet-name>
+        <servlet-class>Question_9.Q9_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q9_Servlet</servlet-name>
+        <url-pattern>/Q9_Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Q10_Servlet1</servlet-name>
+        <servlet-class>Question_10.Q10_Servlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q10_Servlet1</servlet-name>
+        <url-pattern>/Q10_Servlet1</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Q10_Servlet2</servlet-name>
+        <servlet-class>Question_10.Q10_Servlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q10_Servlet2</servlet-name>
+        <url-pattern>/Q10_Servlet2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Q_12Logout</servlet-name>
+        <servlet-class>Question_12.Q_12Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q_12Logout</servlet-name>
+        <url-pattern>/Q_12Logout</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Q6_Logout</servlet-name>
+        <servlet-class>Question_6.Q6_Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q6_Logout</servlet-name>
+        <url-pattern>/Q6_Logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Q6_Servlet</servlet-name>
+        <servlet-class>Question_6.Q6_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q6_Servlet</servlet-name>
+        <url-pattern>/Q6_Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Q6_Servlet2</servlet-name>
+        <servlet-class>Question_6.Q6_Servlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q6_Servlet2</servlet-name>
+        <url-pattern>/Q6_Servlet2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Q6_Servlet3</servlet-name>
+        <servlet-class>Question_6.Q6_Servlet3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q6_Servlet3</servlet-name>
+        <url-pattern>/Q6_Servlet3</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Question_12Login</servlet-name>
+        <servlet-class>Question_12.Question_12Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Question_12Login</servlet-name>
+        <url-pattern>/Question_12Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Q8_Servlet</servlet-name>
+        <servlet-class>Question_8.Q8_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Q8_Servlet</servlet-name>
+        <url-pattern>/Q8_Servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <listener>
+        <listener-class>Question_12.SessionCOunter</listener-class>
+    </listener>
+
+
+    <session-config>
+        <session-timeout>1</session-timeout>
+    </session-config>
+
+    <!--<context-param>
+        <param-name>ContextParam</param-name>
+        <param-value>ParamValue</param-value>
+    </context-param>-->
+</web-app>
